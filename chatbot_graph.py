@@ -7,7 +7,18 @@
 from question_classifier import *
 from question_parser import *
 from answer_search import *
+import sys
 
+def isPython3():
+	import sys
+	if sys.version > '3':
+		return True
+	return False
+
+if isPython3()==False :
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
+    
 '''问答类'''
 class ChatBotGraph:
     def __init__(self):
