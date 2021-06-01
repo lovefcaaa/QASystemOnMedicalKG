@@ -7,6 +7,9 @@
 import os
 import json
 from py2neo import Graph,Node
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
 
 class MedicalGraph:
     def __init__(self):
