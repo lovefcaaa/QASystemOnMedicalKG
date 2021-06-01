@@ -1,3 +1,13 @@
+# 很好的项目，给作者点赞
+
+```
+  1、本地neo4j数据库：docker run -d -p 7474:7474 -p 7687:7687 -v /localpath/neo4j:/data neo4j
+  2、安装模块：pip install py2neo==4.3.0
+  3、更改neo4j用户名密码：build_medicalgraph.py
+  4、数据导入：python build_medicalgraph.py
+  5、启动问答：python chat_graph.py
+```
+
 # QABasedOnMedicaKnowledgeGraph
 self-implement of disease centered Medical graph from zero to full and sever as question answering base. 从无到有搭建一个以疾病为中心的一定规模医药领域知识图谱，并以该知识图谱完成自动问答与分析服务。
 
